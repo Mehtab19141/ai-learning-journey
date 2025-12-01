@@ -1,4 +1,11 @@
 #This is the first day of my coding and journey to ai development
+#input and output
+#comments
+#variables
+#Data Types
+#Operations
+#Random number
+#=========================================================================================================================
 import random
 #First program
 print("hello world")
@@ -87,4 +94,5 @@ print(num1 + num2)
 print(num1 - num2)
 print(num1 * num2)
 print(num1 / num2)
+
 print(num1 // num2)
