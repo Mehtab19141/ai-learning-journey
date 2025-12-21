@@ -6,6 +6,7 @@ Welcome to my journey to become an AI developer!
 
 ## 📚 Current Progress
 **Day 1:** Number Guessing Game - Completed ✅
+code: ai-learning-journey/day-1
 
 
 
