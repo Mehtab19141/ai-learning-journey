@@ -1,0 +1,65 @@
+#Real World Problems
+
+#-------User login and Sign Up System--------
+'''username = input("enter the username:")
+password = input("enter the password: ")
+
+if username and password:
+  print("Login successful! ")
+else:
+  print("login failed! ")  '''
+
+#-------Email and Phone Validation-----------
+'''email = input("enter the email: ")
+if "@" and ".com" in email:
+  print("valid email! ")
+else:
+  print("invalid email!")    '''
+
+#------Chat and Messaging App----------------
+message = "HELLO"
+if message.isupper():
+  print("he is shouting")  
+else:
+  print("he is not shouting")  
+
+#-----Search Engines & Filters---------------
+name = "mehtab ahmad khan"
+sami = "ahmad"
+if sami in name:
+  print("present")
+
+#-----Data Cleaning-------------------------
+name = "   john doe   "
+clean_name = name.strip().title()
+print(clean_name)
+
+#---------Password Strength Checker---------
+
+password = "Hello123"
+
+if len(password) >= 8:
+    print("Strong password")
+else:
+    print("Weak password")
+
+#-------File & Folder Names---------------
+
+filename = "report.pdf"
+
+if filename.endswith(".pdf"):
+    print("PDF file")
+
+#------Chatbots & AI---------------------
+
+msg = input("Say something: ")
+
+if "hi" in msg.lower():
+    print("Hello! How can I help?")
+
+#--------URL & Website Handling----------
+
+url = "https://google.com"
+
+if url.startswith("https"):
+    print("Secure website")
